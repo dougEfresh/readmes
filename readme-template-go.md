@@ -15,7 +15,12 @@
 
 ## Usage 
 
-{{ .usage }}
+{{- range .usages }}
+    
+{{.}}
+    
+{{- end }}
+
 
 ## Examples 
 

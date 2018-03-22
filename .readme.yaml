@@ -18,6 +18,8 @@ quickStart:
 examples:
   - "Example 1"
   - "Example 2"
+usages:
+  - "usage"
 tests:
   - |
     ```shell
