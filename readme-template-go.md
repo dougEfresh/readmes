@@ -4,7 +4,7 @@
 
 [![GoDoc][doc-img]][doc] [![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![Go Report][report-img]][report]
 
-## Installation 
+## Installation
 {{ .installation }}
 
 ## Quick Start
@@ -13,21 +13,21 @@
 
 {{ .quickStart.description }}
 
-## Usage 
+## Usage
 
 {{- range .usages }}
-    
+
 {{.}}
-    
+
 {{- end }}
 
 
-## Examples 
+## Examples
 
 {{- range .examples }}
-    
+
 {{.}}
-    
+
 {{- end }}
 
 
@@ -35,12 +35,12 @@
 
 go 1.x
 
-## Tests 
+## Tests
 
 {{- range .tests }}
-    
+
 {{.}}
-    
+
 {{- end }}
 
 ## Deployment
@@ -58,7 +58,7 @@ This project is licensed under the Apache License - see the [LICENSE](LICENSE) f
 
 ## Acknowledgments
 
-### TODO 
+### TODO
 
 [doc-img]: https://godoc.org/github.com/{{.user}}/{{.project}}?status.svg
 [doc]: https://godoc.org/github.com/{{.user}}/{{.project}}
